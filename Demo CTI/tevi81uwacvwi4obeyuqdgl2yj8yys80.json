@@ -1,0 +1,12 @@
+{
+  "type": "indicator",
+  "spec_version": "2.1",
+  "id": "indicator--4",
+  "created": "2023-10-04T10:00:00.000Z",
+  "modified": "2023-10-04T10:00:00.000Z",
+  "name": "Suspicious URL Indicator",
+  "description": "Indicator for a suspicious URL",
+  "pattern": "[url:value = 'http://example.com/suspicious/path']",
+  "valid_from": "2023-10-04T10:00:00.000Z",
+  "labels": ["suspicious"]
+}

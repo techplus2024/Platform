@@ -39,7 +39,7 @@ The platform architecture consists of four components: [Blockchain](#blockchain)
 <img width="650" alt="architecture" src="https://github.com/techplus2024/Platform/assets/153032812/5b06fdd8-9c44-4fff-8d17-0b850ee13b9a">
 <br/><br/>
 
-We integrated 35 demo CTI records into our prototype to demonstrate the platform's functionalities. We collected the CTI records from [Alienvault](https://otx.alienvault.com/), [CISA](https://www.cisa.gov/news-events/cybersecurity-advisories), and [OASIS](https://oasis-open.github.io/cti-documentation/stix/intro). All 35 CTI records are in the folder [Demo CTI](Demo CTI/).
+We integrated 35 demo CTI records into our prototype to demonstrate the platform's functionalities. We collected the CTI records from [Alienvault](https://otx.alienvault.com/), [CISA](https://www.cisa.gov/news-events/cybersecurity-advisories), and [OASIS](https://oasis-open.github.io/cti-documentation/stix/intro). All 35 CTI records are in the folder [Demo CTI](Demo%20CTI/).
 
 <a name="blockchain"/>
 

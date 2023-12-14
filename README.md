@@ -25,7 +25,7 @@ We deployed a live prototype to demonstrate the incentivized CTI sharing platfor
 **The prototype offers the following features, among others:**
 - Offer new CTI records **(<ins>with Price Suggestions</ins>)**
 - Purchase and download CTI records **(<ins>Financial Payments</ins>)**
-- View the ratings of all CTI records **(<ins>Reputation System</ins>)**
+- View the ratings of all CTI records and submit a rating **(<ins>Reputation System</ins>)**
 - Validate the **<ins>Quality Label</ins>** and see the requirements
 - View the current token balance and transaction history
 - **<ins>Community Sharing</ins>** is enabled through the demo account

@@ -45,7 +45,7 @@ We integrated 35 demo CTI records into our prototype to demonstrate the platform
 
 ## 3. Blockchain
 
-We chose [Hyperledger Besu](https://github.com/hyperledger/besu) as the blockchain to enable integrity and offer custom tokens as a financial incentive to share CTI. We store metadata of the CTI records and transactions on the blockchain.
+We chose [Hyperledger Besu](https://github.com/hyperledger/besu) as the blockchain to enable integrity and offer custom tokens as a financial incentive to share CTI. We store metadata of the CTI records and transactions on the blockchain. The smart contracts are in the folder [Smart Contracts](Smart%20Contracts/).
 
 #### Hardware requirements  
 2 GPU cores, 4 GB memory, 64 GB storage

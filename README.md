@@ -1,6 +1,6 @@
 # Incentivized Cyber Threat Intelligence Sharing Platform
 
-Cyber Threat Intelligence (CTI) presents information about cyber security threats and enables organizations to deal with these threats and proactively defend themselves against them. However, few organizations share their knowledge in a structured way via a sharing platform. Thus, we integrated incentives to motivate organizational CTI sharing.
+Cyber Threat Intelligence (CTI) presents information about cyber security threats and enables organizations to deal with them and proactively defend themselves against them. However, few organizations share their knowledge in a structured way via a sharing platform. Thus, we integrated incentives to motivate organizational CTI sharing.
 
 We first introduce our [Live Prototype](https://platform.uversy.com/) and explain the [Architecture](#architecture). Subsequently, we present the implementation of the [Blockchain](#blockchain) and the [Off-Chain Database](#offchain). Finally, we outline the [Backend Server and Frontend](#backend).
 
@@ -23,12 +23,36 @@ We deployed a live prototype to demonstrate the incentivized CTI sharing platfor
 2. Download a demo CTI record to offer on the platform
 
 **The prototype offers the following features, among others:**
-- Offer new CTI records **(<ins>with Price Suggestions</ins>)**
 - Purchase and download CTI records **(<ins>Financial Payments</ins>)**
+- Offer new CTI records **(<ins>with Price Suggestions</ins>)**
 - View the ratings of all CTI records and submit a rating **(<ins>Reputation System</ins>)**
 - Validate the **<ins>Quality Label</ins>** and see the requirements
 - View the current token balance and transaction history
 - **<ins>Community Sharing</ins>** is enabled through the demo account
+
+**Screenshots of the Live Prototype:**
+              
+<img width="100%" alt="Financial Payments" src="https://github.com/techplus2024/Platform/assets/153032812/00c55806-909c-43df-b6e7-c9a1425d1bed">  
+
+Figure 1: *Financial payments in the marketplace for CTI records*
+
+<br/>
+
+<img width="100%" alt="Price Suggestion" src="https://github.com/techplus2024/Platform/assets/153032812/4396ddd2-5127-49e3-a020-b5670a150a07">  
+
+Figure 2: *Price suggestion to set the price of a CTI record*
+
+<br/>
+
+<img width="100%" alt="Reputation System" src="https://github.com/techplus2024/Platform/assets/153032812/c6fa1386-5c57-4f5f-ab1b-655502c446c9">  
+
+Figure 3: *Reputation system displaying ratings for the CTI record*
+
+<br/>
+
+<img width="100%" alt="Quality Label" src="https://github.com/techplus2024/Platform/assets/153032812/9231de08-aaf7-45ab-9433-b4ff486961e4">  
+
+Figure 4: *Quality label highlighting the participation in proactive cybersecurity*
 
 <a name="architecture"/>
 
@@ -36,8 +60,9 @@ We deployed a live prototype to demonstrate the incentivized CTI sharing platfor
 
 The platform architecture consists of four components: [Blockchain](#blockchain), [Off-Chain Database](#offchain), [Backend Server and Frontend](#backend). The following figure shows the relationships between the components. Every participating organization deploys every component.
 
-<img width="650" alt="architecture" src="https://github.com/techplus2024/Platform/assets/153032812/5b06fdd8-9c44-4fff-8d17-0b850ee13b9a">
-<br/><br/>
+<img width="650" alt="Architecture" src="https://github.com/techplus2024/Platform/assets/153032812/5b06fdd8-9c44-4fff-8d17-0b850ee13b9a">  
+
+Figure 5: *Architecture of the CTI sharing platform*
 
 We integrated 35 demo CTI records into our prototype to demonstrate the platform's functionalities. We collected the CTI records from [Alienvault](https://otx.alienvault.com/), [CISA](https://www.cisa.gov/news-events/cybersecurity-advisories), and [OASIS](https://oasis-open.github.io/cti-documentation/stix/intro). All 35 CTI records are in the folder [Demo CTI](Demo%20CTI/).
 
@@ -86,17 +111,17 @@ We chose [Hyperledger Besu](https://github.com/hyperledger/besu) as the blockcha
    "alloc" : {
       "fe3b557e8fb62b89f4916b721be55ceb828dbd73" : {
          "privateKey" : "8f2a55949038a9610f50fb23b5883af3b4ecb3c3bb792cbcefbd1542c692be63",
-         "comment" : "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+         "comment" : "private key and this comment are ignored. In a real chain, the private key should NOT be stored",
          "balance" : "0xad78ebc5ac6200000"
        },
     "627306090abaB3A6e1400e9345bC60c78a8BEf57" : {
          "privateKey" : "c87509a1c067bbde78beb793e6fa76530b6382a4c0241e5e4a9ec0a0f44dc0d3",
-         "comment" : "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+         "comment" : "private key and this comment are ignored. In a real chain, the private key should NOT be stored",
          "balance" : "90000000000000000000000"
       },
     "f17f52151EbEF6C7334FAD080c5704D77216b732" : {
          "privateKey" : "ae6ae8e5ccbfb04590405997ee2d52d2b330726137b875053c36d94e974d162f",
-         "comment" : "private key and this comment are ignored.  In a real chain, the private key should NOT be stored",
+         "comment" : "private key and this comment are ignored. In a real chain, the private key should NOT be stored",
          "balance" : "90000000000000000000000"
        }
    },

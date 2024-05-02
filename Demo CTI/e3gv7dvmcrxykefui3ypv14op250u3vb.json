@@ -1,0 +1,12 @@
+{
+  "type": "indicator",
+  "spec_version": "2.1",
+  "id": "indicator--2",
+  "created": "2023-10-04T10:00:00.000Z",
+  "modified": "2023-10-04T10:00:00.000Z",
+  "name": "Malicious Domain Indicator",
+  "description": "Indicator for a known malicious domain",
+  "pattern": "[domain-name:value = 'malicious-example.com' AND domain-name:subdomains = 'www']",
+  "valid_from": "2023-10-04T10:00:00.000Z",
+  "labels": ["malicious"]
+}

@@ -44,7 +44,7 @@ Figure 2: *Price suggestion to set the price of a CTI record*
 
 <br/>
 
-<img width="100%" alt="Reputation System" src="Images/reputation-system.png9">  
+<img width="100%" alt="Reputation System" src="Images/reputation-system.png">  
 
 Figure 3: *Reputation system displaying ratings for the CTI record*
 
